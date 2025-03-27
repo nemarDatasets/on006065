@@ -19,8 +19,7 @@ Full text: [http://www.opendatacommons.org/licenses/pddl/1.0](http://www.opendat
 ---
 
 ## Dataset and Protocol
-The data are organized according to the **Brain Imaging Data Structure (BIDS)** specification, a community-driven standard for organizing neurophysiology data along with its metadata.  
-For more information, see: [BIDS Specification](https://bids-specification.readthedocs.io/en/stable/)
+The data are organized according to the **Brain Imaging Data Structure (BIDS)** iEEG specification, a community-driven standard for organizing neurophysiology data along with its metadata.  
 
 ### Structure
 Each subject folder contains the raw iEEG data for that subject, segmented into different periods of the stimulation protocol:
