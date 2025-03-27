@@ -1,0 +1,10 @@
+{
+	"HardwareFilters":"n/a",
+	"PowerLineFrequency":60,
+	"RecordingDuration":120.1201201201201,
+	"SEEGChannelCount":168,
+	"SamplingFrequency":500,
+	"SoftwareFilters":"n/a",
+	"TaskName":"epcontrolpost",
+	"iEEGReference":"n/a"
+}
