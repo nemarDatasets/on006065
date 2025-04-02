@@ -1,0 +1,10 @@
+{
+	"HardwareFilters":"n/a",
+	"PowerLineFrequency":60,
+	"RecordingDuration":3428.285523682455,
+	"SEEGChannelCount":175,
+	"SamplingFrequency":500,
+	"SoftwareFilters":"n/a",
+	"TaskName":"clcontrol",
+	"iEEGReference":"n/a"
+}
