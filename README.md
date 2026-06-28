@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006065-blue)](https://doi.org/10.82901/nemar.on006065)
+
 # iEEG Dataset: Theta-synchronized Stimulation of Human Hippocampal Networks
 
 ## Information
