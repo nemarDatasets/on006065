@@ -2,18 +2,40 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "TSS_iEEG",
+  "description": "This intracranial EEG (iEEG) dataset comprises recordings from 7 participants undergoing closed-loop theta-synchronized stimulation of hippocampal networks. The dataset includes pre- and post-stimulation evoked potentials, resting-state recordings, closed-loop stimulation sessions, and control stimulation periods, organized according to BIDS iEEG specification. Electrode coordinates are registered to MNI152 2009c space, enabling investigation of hippocampal network connectivity modulation through real-time theta oscillation control.",
+  "methods_description": "Intracranial EEG recordings were acquired during a closed-loop stimulation protocol involving multiple experimental phases: pre-stimulation evoked potentials, post-stimulation evoked potentials, pre-stimulation rest, post-stimulation rest, closed-loop stimulation, and control stimulation. Raw data were recorded in BrainVision format and electrode coordinates were registered to MNI152 2009c asymmetrical template space.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "James Kragel": {},
     "Joel Voss": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006065.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "closed-loop stimulation"
+    },
+    {
+      "term": "theta oscillations"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "network connectivity"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006065",
       "identifier_type": "URL",
@@ -28,6 +50,11 @@
       "identifier": "10.18112/openneuro.ds006065",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006065.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -37,12 +64,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "10.3 GB (136 files)"
   ],
   "formats": [
     ".eeg",
@@ -50,41 +77,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This intracranial EEG (iEEG) dataset comprises recordings from 7 participants undergoing closed-loop theta-synchronized stimulation of hippocampal networks. The dataset includes pre- and post-stimulation evoked potentials, resting-state recordings, closed-loop stimulation sessions, and control stimulation periods. Data are organized according to BIDS iEEG specification with electrode coordinates registered to MNI152 2009c space, supporting investigations of hippocampal network connectivity modulation through real-time theta oscillation control.",
-  "methods_description": "Intracranial EEG recordings were acquired from 7 participants during a closed-loop stimulation protocol. Data were segmented into multiple conditions: pre-stimulation and post-stimulation evoked potentials, pre-stimulation and post-stimulation rest periods, closed-loop stimulation sessions, and control stimulation. Raw data are stored in BrainVision format with electrode coordinates provided in MNI152 2009c asymmetrical template space.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
-    },
-    {
-      "term": "theta oscillations"
-    },
-    {
-      "term": "closed-loop stimulation"
-    },
-    {
-      "term": "network connectivity"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Brain Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
-    }
-  ],
-  "source_hash": "f6b0fb63c05ea0dc80062dd46278e781f992abc33d9cde536235b2dd86579c20"
+  "source_hash": "a2677dabdbe94a5fb0a24bb254a31b7403734d7ae33d33b94234ece0f6c23883"
 }
