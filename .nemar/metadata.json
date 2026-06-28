@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "TSS_iEEG",
   "description": "This intracranial EEG (iEEG) dataset comprises recordings from 7 participants undergoing closed-loop theta-synchronized stimulation of hippocampal networks. The dataset includes pre- and post-stimulation evoked potentials, resting-state recordings, closed-loop stimulation sessions, and control stimulation periods, organized according to BIDS iEEG specification. Electrode coordinates are registered to MNI152 2009c space, enabling investigation of hippocampal network connectivity modulation through real-time theta oscillation control.",
-  "methods_description": "Intracranial EEG recordings were acquired during a closed-loop stimulation protocol involving multiple experimental phases: pre-stimulation evoked potentials, post-stimulation evoked potentials, pre-stimulation rest, post-stimulation rest, closed-loop stimulation, and control stimulation. Raw data were recorded in BrainVision format and electrode coordinates were registered to MNI152 2009c asymmetrical template space.",
+  "methods_description": "Intracranial EEG recordings were acquired during a closed-loop stimulation protocol including pre-stimulation evoked potentials, post-stimulation evoked potentials, pre-stimulation rest, post-stimulation rest, closed-loop stimulation, and control stimulation periods. Raw data are stored in BrainVision format with electrode coordinates registered to MNI152 2009c asymmetrical template.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,9 +30,6 @@
     },
     {
       "term": "network connectivity"
-    },
-    {
-      "term": "electrophysiology"
     }
   ],
   "related_identifiers": [
