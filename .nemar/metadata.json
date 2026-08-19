@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "TSS_iEEG",
-  "description": "This intracranial EEG (iEEG) dataset comprises recordings from 7 participants undergoing closed-loop theta-synchronized stimulation of hippocampal networks. The dataset includes pre- and post-stimulation evoked potentials, resting-state recordings, closed-loop stimulation sessions, and control stimulation periods, organized according to BIDS iEEG specification. Electrode coordinates are registered to MNI152 2009c space, enabling investigation of hippocampal network connectivity modulation through real-time theta oscillation control.",
-  "methods_description": "Intracranial EEG recordings were acquired during a closed-loop stimulation protocol including pre-stimulation evoked potentials, post-stimulation evoked potentials, pre-stimulation rest, post-stimulation rest, closed-loop stimulation, and control stimulation periods. Raw data are stored in BrainVision format with electrode coordinates registered to MNI152 2009c asymmetrical template.",
+  "description": "This dataset comprises intracranial EEG (iEEG) recordings from 7 participants who underwent closed-loop stimulation targeting theta oscillations in hippocampal networks. The data support an investigation into how closed-loop control of theta rhythms modulates human hippocampal network connectivity, encompassing pre- and post-stimulation evoked potentials, resting-state periods, and stimulation epochs (closed-loop and control). Electrode locations are provided in MNI152 2009c asymmetrical template space.",
+  "methods_description": "Raw iEEG data were recorded in BrainVision format (vhdr, vmrk, eeg) and organized according to the BIDS iEEG specification. Each subject's data are segmented into pre-stimulation and post-stimulation evoked potentials, pre- and post-stimulation rest periods, closed-loop stimulation, and control stimulation. Electrode coordinates were registered to the MNI152 2009c asymmetrical template. Data were converted to BIDS using the FieldTrip data2bids converter.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,21 +15,23 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "iEEG"
-    },
-    {
-      "term": "closed-loop stimulation"
-    },
-    {
-      "term": "theta oscillations"
-    },
-    {
       "term": "Hippocampus",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "network connectivity"
+      "term": "Theta Rhythm",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013826"
+    },
+    {
+      "term": "closed-loop stimulation"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "neural connectivity"
     }
   ],
   "related_identifiers": [
